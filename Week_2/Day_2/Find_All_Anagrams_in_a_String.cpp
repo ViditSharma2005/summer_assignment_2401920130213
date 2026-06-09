@@ -1,6 +1,8 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
-    public:
-    #include<bits/stdc++.h>
+public:
     vector<int> findAnagrams(string s, string p) {
         int n1= s.length();
         int n2= p.length();
