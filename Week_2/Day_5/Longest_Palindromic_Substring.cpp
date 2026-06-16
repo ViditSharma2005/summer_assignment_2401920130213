@@ -1,6 +1,8 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
-#include<bits/stdc++.h>
     string longestPalindrome(string s) {
         int n= s.length();
         if(n==0) return "";
